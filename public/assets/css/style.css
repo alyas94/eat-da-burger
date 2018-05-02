@@ -1,0 +1,52 @@
+body {
+  width: 75%;
+  margin: 0 auto;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: white;
+}
+
+#cute_burger {
+  display: block;
+  margin: auto;
+}
+#name {
+  color: grey;
+}
+form {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 65px;
+  margin: 50px;
+}
+
+.burgerAvailable {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 8px;
+  padding: 8px;
+}
+
+.burgerEaten {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #17a2b8;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 50px;
+}

@@ -1,18 +1,28 @@
+// Pull in required dependencies
 var mysql = require("mysql");
 
-var connection = mysql.createConnection({
+// Create the MySQL connection object
+var connection;
+
+// DB is local on localhost
+connection = mysql.createConnection({
+  port: 3306,
   host: "localhost",
   user: "root",
   password: "root",
   database: "burgers_db",
 });
 
+// Make the connection to MySQL
 connection.connect(function(err) {
   if (err) {
-    console.error("error connecting: " + err.stack);
+    console.error("ERROR: MySQL connection error -- " + err.stack + "\n\n");
     return;
   }
-  console.log("connected as id " + connection.threadId);
+  console.log(
+    "Connected to MySQL database as id " + connection.threadId + "\n\n"
+  );
 });
 
+// Export connection for ORM use
 module.exports = connection;
