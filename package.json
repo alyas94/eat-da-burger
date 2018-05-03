@@ -4,17 +4,18 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alyas94/eat-da-burger.git"
+    "url": "git+https://github.com/alyas94/eat-da-burger"
   },
   "keywords": [],
   "author": "Ariel Solano",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alyas94/eat-da-burger/issues"
+    "url": "https://github.com/alyas94/eat-da-burger"
   },
   "homepage": "https://github.com/alyas94/eat-da-burger#readme",
   "dependencies": {
