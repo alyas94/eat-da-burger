@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alyas94/eat-da-burger"
+    "url": "git+https://github.com/alyas94/eat-da-burger.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ariel Solano",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alyas94/eat-da-burger"
+    "url": "https://github.com/alyas94/eat-da-burger/issues"
   },
   "homepage": "https://github.com/alyas94/eat-da-burger#readme",
   "dependencies": {
